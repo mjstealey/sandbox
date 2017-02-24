@@ -13,6 +13,8 @@ virtualenv flask
 source flask/bin/activate
 pip install setuptools --upgrade
 pip install -r requirements.txt
+./db_create.py
+./db_upgrade.py
 ./run.py
 ```
 
